@@ -1,11 +1,14 @@
 language: java
-jdk:
-- openjdk8
+
+jdk: 
+    -openjdk13
+
 addons:
-sonarcloud:
-organization: "stefanocostanzogithub"
-token:
-secure: "TgovmcXRyY17n97deyuhMQ"
+    sonarcloud:
+     organization: "stefanocostanzogithub"
+     token:
+        secure: "81d51c145866a7392b62d0556d3720ac1920e85b"
+
 script:
 - ant build
 - sonar-scanner
