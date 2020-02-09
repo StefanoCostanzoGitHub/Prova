@@ -5,7 +5,7 @@ addons:
 sonarcloud:
 organization: "stefanocostanzogithub"
 token:
-secure: bd57c286b6d86c00b77656843810c310c9fbd075
+secure: "ca36f093619a862716ccdb29f500a984763d82f8"
 script:
 - ant build
 - sonar-scanner
